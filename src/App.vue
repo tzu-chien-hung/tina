@@ -3,7 +3,8 @@
     <nav>
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/tina">tina</router-link>
+      <router-link to="/tina">tina</router-link> |
+      <router-link to="/backend">backend</router-link>
     </nav>
     <router-view />
   </div>

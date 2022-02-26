@@ -23,7 +23,13 @@ const routes: Array<RouteConfig> = [
     path: '/tina',
     name: 'tina',
     component: () => import('../views/TinaView.vue')
-  }
+  },
+  {
+    path: '/backend',
+    name: 'backend',
+    component: () => import('../views/BackEnd.vue')
+  },
+  
 ]
 
 const router = new VueRouter({

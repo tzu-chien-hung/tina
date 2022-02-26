@@ -1,6 +1,7 @@
 <template>
     <div>
         <div style="color=red">{{ kevin }}</div>
+        <div></div>
     </div>
 </template>
 <script >
